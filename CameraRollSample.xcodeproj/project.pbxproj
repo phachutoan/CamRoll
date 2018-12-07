@@ -13,6 +13,7 @@
 		852115A521B9E9F100D0D47D /* CameraRollSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 852115A321B9E9F100D0D47D /* CameraRollSample.xcdatamodeld */; };
 		852115A721B9E9F200D0D47D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852115A621B9E9F200D0D47D /* Assets.xcassets */; };
 		852115AA21B9E9F200D0D47D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852115A821B9E9F200D0D47D /* LaunchScreen.storyboard */; };
+		852115B221B9ECE200D0D47D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852115B121B9ECE200D0D47D /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		852115A621B9E9F200D0D47D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852115A921B9E9F200D0D47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		852115AB21B9E9F200D0D47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852115B121B9ECE200D0D47D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				852115A821B9E9F200D0D47D /* LaunchScreen.storyboard */,
 				852115AB21B9E9F200D0D47D /* Info.plist */,
 				852115A321B9E9F100D0D47D /* CameraRollSample.xcdatamodeld */,
+				852115B121B9ECE200D0D47D /* CollectionViewCell.swift */,
 			);
 			path = CameraRollSample;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				852115A521B9E9F100D0D47D /* CameraRollSample.xcdatamodeld in Sources */,
 				8521159F21B9E9F100D0D47D /* ViewController.swift in Sources */,
+				852115B221B9ECE200D0D47D /* CollectionViewCell.swift in Sources */,
 				8521159D21B9E9F100D0D47D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CCJRF6N4A;
 				INFOPLIST_FILE = CameraRollSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CCJRF6N4A;
 				INFOPLIST_FILE = CameraRollSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
