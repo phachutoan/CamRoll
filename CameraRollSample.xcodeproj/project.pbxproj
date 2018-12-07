@@ -14,9 +14,12 @@
 		852115A721B9E9F200D0D47D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852115A621B9E9F200D0D47D /* Assets.xcassets */; };
 		852115AA21B9E9F200D0D47D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852115A821B9E9F200D0D47D /* LaunchScreen.storyboard */; };
 		852115B221B9ECE200D0D47D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852115B121B9ECE200D0D47D /* CollectionViewCell.swift */; };
+		EE7D4F7324DFF8F010F07670 /* Pods_CameraRollSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F2A2F7EFFA0DA636834282 /* Pods_CameraRollSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14C0CD47E31082471FEE4DF7 /* Pods-CameraRollSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraRollSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraRollSample/Pods-CameraRollSample.release.xcconfig"; sourceTree = "<group>"; };
+		16358ECB0FDDF11755DE0040 /* Pods-CameraRollSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraRollSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraRollSample/Pods-CameraRollSample.debug.xcconfig"; sourceTree = "<group>"; };
 		8521159921B9E9F100D0D47D /* CameraRollSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraRollSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8521159C21B9E9F100D0D47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8521159E21B9E9F100D0D47D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		852115A921B9E9F200D0D47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		852115AB21B9E9F200D0D47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		852115B121B9ECE200D0D47D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C4F2A2F7EFFA0DA636834282 /* Pods_CameraRollSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraRollSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7D4F7324DFF8F010F07670 /* Pods_CameraRollSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F1D65B8BDF63D0A47465592 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4F2A2F7EFFA0DA636834282 /* Pods_CameraRollSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61738BD56A77BE31B6AB0091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16358ECB0FDDF11755DE0040 /* Pods-CameraRollSample.debug.xcconfig */,
+				14C0CD47E31082471FEE4DF7 /* Pods-CameraRollSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8521159021B9E9F000D0D47D = {
 			isa = PBXGroup;
 			children = (
 				8521159B21B9E9F100D0D47D /* CameraRollSample */,
 				8521159A21B9E9F100D0D47D /* Products */,
+				61738BD56A77BE31B6AB0091 /* Pods */,
+				3F1D65B8BDF63D0A47465592 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 852115AE21B9E9F200D0D47D /* Build configuration list for PBXNativeTarget "CameraRollSample" */;
 			buildPhases = (
+				7AAE481D19C2FB42FCFE8A2D /* [CP] Check Pods Manifest.lock */,
 				8521159521B9E9F100D0D47D /* Sources */,
 				8521159621B9E9F100D0D47D /* Frameworks */,
 				8521159721B9E9F100D0D47D /* Resources */,
+				29E9ADD04452DA951B0E3ECE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +161,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E9ADD04452DA951B0E3ECE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CameraRollSample/Pods-CameraRollSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImageViewer/ImageViewer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageViewer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraRollSample/Pods-CameraRollSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AAE481D19C2FB42FCFE8A2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraRollSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8521159521B9E9F100D0D47D /* Sources */ = {
@@ -288,6 +353,7 @@
 		};
 		852115AF21B9E9F200D0D47D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16358ECB0FDDF11755DE0040 /* Pods-CameraRollSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +372,7 @@
 		};
 		852115B021B9E9F200D0D47D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C0CD47E31082471FEE4DF7 /* Pods-CameraRollSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
